@@ -15,8 +15,5 @@
 		</tr>
 	</table>
 <% else %>
-	<h1><%= @title %></h1>
-	<p>Home Page</p>
-
-	<%= link_to "Sign up" , signup_path, :class => "signup_button round" %>
+	<h2><%= link_to "Sign up" , signup_path, :class => "signup_button round" %></h2>
 <% end %>
